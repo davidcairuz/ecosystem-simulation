@@ -15,7 +15,7 @@ INDIVIDUAL_QNT = 30
 def create_food(canvas):
 	quantity = math.ceil((np.random.randint(30, 101)/100) * INDIVIDUAL_QNT)
 	for i in range(quantity):
-		newind = Food(canvas)
+		Food(canvas)
 
 master = Tk()
 canvas = Canvas(master, width=WIDTH, height=HEIGHT)
@@ -24,7 +24,7 @@ canvas.pack()
 
 # Creating individuals
 for i in range(100):
-	newind = Individual(canvas)
+	Individual(canvas)
 
 # Creating food
 create_food(canvas)
