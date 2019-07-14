@@ -5,8 +5,8 @@ from tkinter import Canvas, Tk
 import time
 import numpy as np
 
-WIDTH = 500
-HEIGHT = 400
+WIDTH = 1280
+HEIGHT = 720
 IND_SIZE = 12
 START_GEN = 200
 

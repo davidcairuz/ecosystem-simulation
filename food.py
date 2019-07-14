@@ -4,14 +4,13 @@ from tkinter import Canvas, Tk
 import time
 import numpy as np
 
-WIDTH = 500
-HEIGHT = 400
+WIDTH = 1280
+HEIGHT = 720
 FOOD_SIZE = 10
 
 class Food:
 
 	all_food = {}
-	current_generation = 0
 
 	def __init__(self, canvas):
 		(x1, y1, x2, y2) = self.get_random_coordinates()
